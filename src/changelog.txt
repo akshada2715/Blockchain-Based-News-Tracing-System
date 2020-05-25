@@ -1,0 +1,14 @@
+Version: 2.1.1
+  - Fixed animation on scroll effect not applying after portfolio filters clicked
+
+Version: 2.1.0
+  - Added Blog page
+  - Dev version: prevent updating to jQuery version 3.5.0 since it's incompatible with the current Bootstrap version 
+
+Version: 2.0.0
+  - The template was rebuilt from scratch with the latest Bootstrap version (4.4.1)
+  - Added SMPTP support for the contact form script (Pro)
+  - Added NodeJS NPM Development version (Pro unlimited & Membership members)
+  
+Version: 1.0.0
+  - Initial Release
