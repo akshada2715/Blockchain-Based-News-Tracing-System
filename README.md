@@ -1,10 +1,23 @@
-Prerequisites:
+# **News Tracing System Using Blockchain**
+
+## **Introduction**
+   The current pandemic situation has made us realize how fake news can have detrimental impacts on society. Although we can't ignore the benefits of social media, we surely can't overlook the misuse of these mediums to spread rumors and fake articles. These posts/articles/ messages can be commonly called "Fake News" and they not only create misinformation but also create panic among the public. Blockchain is a disruptive technology that is being used to make innovative solutions in the sectors of food, fashion, supply chain, and banking. The decentralized and transparent nature of blockchain can not only be used in the above sectors but it can also be used to tackle the problem of fake news. Several solutions have been proposed to combat the problem using blockchain. This project will propose one such solution to combat the fake news problem that can be used by all the news agencies. The system is called the "News Tracking and Tracing System " and is built using Ethereum and React. (Technology Stack below)
+
+## **Working**:
+   The journalist will have to log in to his Metamask wallet. After the journalist logs in the wallet, he can see his Home page. He can create a post, by entering the article name and he can upload a file related to the article. He can upload the post by clicking on the "upload" button. The file uploaded by the journalist will be stored on the IPFS and the file hash will be returned by IPFS API. The journalist will have to pay the gas fee, after confirming the transaction on metamask and all the post content and the file hash will be stored on the blockchain network. The Editor (after logging into his metamask wallet) can see his Home Page on which all the posts uploaded by the Journalist along with the related file will be displayed. The editor can modify the post, he can change the name of the post, file uploaded, etc. The modified post will be displayed on the News Agency's home page when he will log in to his metamask account. The Newsagency can see a warning line above each post that has been modified by the editor. The news agency has the option to trace the post to the origin on the click of a button. When clicked, the news agency can trace back the post to its origin which will display all the modifications done on the original content. The news agency can approve or disapprove of the post on the click of a button. If the post is disapproved, no further action will be taken. If the post is approved, then the news agency will by default tip an amount of 1 ether to the editor and the journalist. The 
+   
+## **System UI and Working Flow**
+
+## **Steps to get the system working**
+
+### **Prerequisites:**
 1) Geth
 2) Ganache
 3) Truffle
 4) Node.js
 5) Metamask
 6) IPFS API 
+
 
 1) After you clone the repository, navigate to the repository folder and run "npm install"
 2) Start ganache 
